@@ -1,0 +1,17 @@
+.list-inline{
+  text-align: left;
+  font-size: 25px;
+}
+
+.list-inline-item a{
+color: #000;
+}
+
+.image-container {
+ text-align: left;
+}
+
+.image-container img {
+    width: auto;
+    height: auto;
+}
