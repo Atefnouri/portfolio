@@ -2,11 +2,12 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MaincontentComponent } from './maincontent/maincontent.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent , MaincontentComponent , PortfolioComponent],
+  imports: [NavbarComponent , MaincontentComponent , PortfolioComponent , SkillsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
