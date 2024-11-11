@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+  import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -9,13 +9,11 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class NavbarComponent {
 
-
   @Output() messageEmitter = new EventEmitter<string>();
 
-  sendMessage() {
-    const message = 'Portfolio Link';
-    this.messageEmitter.emit(message);
-    console.log('Message sent: ', message);
-  }
+
+sentLinkID(id:string) {
+  this.messageEmitter.emit(id);
+}
 
 }

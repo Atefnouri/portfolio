@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-maincontent',
@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './maincontent.component.html',
   styleUrl: './maincontent.component.css'
 })
-export class MaincontentComponent {
+  export class MaincontentComponent {
+
 
 }

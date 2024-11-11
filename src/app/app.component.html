@@ -5,7 +5,7 @@
 
         <div class="row mb-5">
 
-      <app-navbar></app-navbar>
+      <app-navbar (messageEmitter)="ScrollTo($event)"></app-navbar>
 
         </div>
 
@@ -13,7 +13,14 @@
         <app-maincontent></app-maincontent>
 
 
-       <app-portfolio (messageEmitter)="receiveMessage($event)"></app-portfolio>
 
-    </div>
+
+
+
+        <section id="portfolio" class="portflio">
+          <app-portfolio></app-portfolio>
+        </section>
+
+
+        </div>
 </div>
