@@ -1,0 +1,8 @@
+.image-container {
+  text-align: right;
+ }
+
+ .image-container img {
+     width: auto;
+     height: auto;
+ }

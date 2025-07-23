@@ -3,11 +3,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MaincontentComponent } from './maincontent/maincontent.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
+import { HomeComponent } from './home/home.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent , MaincontentComponent , PortfolioComponent , SkillsComponent],
+  imports: [HomeComponent, PortfolioComponent , SkillsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
