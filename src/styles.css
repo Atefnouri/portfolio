@@ -1,7 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 *{
   background-color: #615EFC;
-  margin: 0 auto;
-  padding: 0;
+
 }
 
 html {
@@ -9,11 +13,6 @@ html {
 }
 
 
-.mysection-title{
-  font-size: 60px;
-  color: azure;
-  text-align: left;
-}
 
 
 
