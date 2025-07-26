@@ -1,9 +1,15 @@
-.nav-link, .navbar-brand{
-color:#fff;
-font-family: Inter, sans-serif;
+
+
+.logo {
+  width: 220px;
 }
 
-.navbar-brand{
-  font-family: "Orbitron", sans-serif;
-  font-size: 23px;
+/* Add nav_btn class using @apply for Tailwind utility classes */
+.nav_btn {
+  @apply block py-2 px-3  text-white;
+}
+
+
+.navbar{
+  @apply font-medium flex flex-row p-4 md:p-0 mt-4  ;
 }

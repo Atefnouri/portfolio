@@ -1,32 +1,36 @@
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <a class="navbar-brand" href="#">Atef Nouri</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<nav class="">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center">
+        <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Atef Nouri</span>-->
+        <img src="src/assets/logo.svg" alt="image"  class="logo inline h-12" />
+        <img src="" alt="">
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav  mb-2 mb-lg-0 me-0">
-        <li class="nav-item">
-          <!--<a class="nav-link active" aria-current="page" href="#">HOME</a>-->
-          <a class="nav-link" aria-current="page" href="#">HOME</a>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="navbar">
+        <li>
+          <a href="#" class="nav_btn" aria-current="page">HOME</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link"   (click)="sentLinkID('portfolio')"  >PORTFOLIO</a>
+        <li>
+          <a (click)="sentLinkID('portfolio')" class="nav_btn">PORTFOLIO</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" (click)="sentLinkID('skills')">SKILLS</a>
+        <li>
+          <a (click)="sentLinkID('skills')" class="nav_btn">SKILLS</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">BLOG</a>
+        <li>
+          <a href="#" class="nav_btn">BLOG</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
+        <li>
+          <a href="#" class="nav_btn">CONTACT</a>
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">DM</a>
+        <li>
+          <a href="#" class="nav_btn">DM</a>
         </li>
-
       </ul>
     </div>
   </div>
