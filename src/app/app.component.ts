@@ -4,11 +4,12 @@ import { MaincontentComponent } from './maincontent/maincontent.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HomeComponent, PortfolioComponent , SkillsComponent],
+  imports: [HomeComponent, PortfolioComponent , SkillsComponent, ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
