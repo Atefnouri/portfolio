@@ -13,6 +13,11 @@ html {
 }
 
 
+.section-heading{
+
+  @apply text-8xl font-bold py-2 text-white;
+}
+
 
 
 
