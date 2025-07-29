@@ -1,12 +1,9 @@
-<div class="home">
-
-
-<div class="grid content-end mb-20">
-
-    <app-navbar (messageEmitter)="SendMessage($event)"></app-navbar>
-
-</div>
-      <app-maincontent></app-maincontent>
-
-
+<div class="home flex flex-col">
+  <app-navbar (messageEmitter)="SendMessage($event)"></app-navbar>
+  <div class="flex-grow flex items-end mb-40">
+    <app-maincontent class="w-full"></app-maincontent>
+  </div>
+  <div class="flex justify-center items-center mb-10">
+    <img src="src/assets/mouse-cursor 1.svg" alt="" class="h-20 w-20">
+  </div>
 </div>
