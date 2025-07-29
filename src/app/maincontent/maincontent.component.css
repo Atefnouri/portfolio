@@ -29,3 +29,13 @@ font-weight: lighter;
 font-size: 40px;
 
 }
+
+.btn_cv{
+  @apply bg-transparent
+   hover:bg-white
+   text-xl
+  text-white
+  font-semibold
+  hover:text-black
+   py-3 px-16 border border-white hover:border-transparent rounded-md ;
+}
