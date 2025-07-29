@@ -1,20 +1,10 @@
-.contact-form {
-  /* Add your styles here */
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  border: 1px solid #ccc;
+.btn_cv{
+  @apply bg-transparent
+   hover:bg-white
+   text-xl
+  text-white
+  font-semibold
+  hover:text-black
+   py-3 px-16 border border-white hover:border-transparent rounded-md
+   w-full;
 }
