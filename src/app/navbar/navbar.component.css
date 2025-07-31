@@ -6,7 +6,7 @@
 
 /* Add nav_btn class using @apply for Tailwind utility classes */
 .nav_btn {
-  @apply block py-2 px-3  text-white;
+  @apply block py-2 px-3 text-white cursor-pointer transition-colors duration-300 hover:text-gray-400;
 }
 
 
