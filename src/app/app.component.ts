@@ -7,10 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { ScrolltopComponent } from './scrolltop/scrolltop.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HomeComponent, PortfolioComponent , SkillsComponent, ContactComponent, FooterComponent],
+  imports: [HomeComponent, PortfolioComponent , SkillsComponent, ContactComponent, FooterComponent, ScrolltopComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
