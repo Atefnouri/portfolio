@@ -1,0 +1,33 @@
+<div class="pagination-container">
+  <nav class="pagination-wrapper">
+    <button
+      class="pagination-button disabled:opacity-40"
+      (click)="previousPage()"
+      [disabled]="currentPage === 1"
+    >
+      ← Previous
+    </button>
+
+    @for (page of paginationRange; track page) {
+      @if (page !== '...') {
+        <button
+          class="pagination-page"
+          [class.active-page]="page === currentPage"
+          (click)="goToPage(page)"
+        >
+          {{ page }}
+        </button>
+      } @else {
+        <span class="pagination-dots">...</span>
+      }
+    }
+
+    <button
+      class="pagination-button"
+      (click)="nextPage()"
+      [disabled]="currentPage === totalPages"
+    >
+      Next →
+    </button>
+  </nav>
+</div>

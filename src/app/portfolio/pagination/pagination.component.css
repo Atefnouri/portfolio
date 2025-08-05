@@ -1,0 +1,19 @@
+.pagination-wrapper {
+  @apply flex items-center justify-center gap-4 p-4;
+}
+
+.pagination-button {
+  @apply text-black text-xl font-medium transition-opacity;
+}
+
+.pagination-page {
+  @apply w-8 h-8 flex items-center justify-center text-black  text-xl font-medium rounded-md;
+}
+
+.active-page {
+  @apply bg-black text-white;
+}
+
+.pagination-dots {
+  @apply text-black font-medium;
+}
