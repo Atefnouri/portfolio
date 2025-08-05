@@ -1,130 +1,24 @@
-
-
-<div class="flex flex-wrap mb-10">
+<div class="section-header">
   <h1 class="section-heading">SKILLS</h1>
 </div>
 
-
-<!-- Gallery -->
-<div class="flex flex-wrap -mx-2">
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-        class="w-full h-48 object-cover"
-        alt="Boat on Calm Water"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Boat on Calm Water</div>
+<div class="gallery">
+  @for (skill of skills; track skill.imageUrl) {
+    <div class="card-wrapper">
+      <div class="card">
+        <img
+          [src]="skill.imageUrl"
+          class="card-img"
+          [alt]="skill.title"
+        />
+        <div class="card-body">
+          <div class="card-title">{{ skill.title }}</div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-        class="w-full h-48 object-cover"
-        alt="Wintry Mountain Landscape"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Wintry Mountain Landscape</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-        class="w-full h-48 object-cover"
-        alt="Mountains in the Clouds"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Mountains in the Clouds</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-        class="w-full h-48 object-cover"
-        alt="Sunrise over the Ocean"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Sunrise over the Ocean</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-        class="w-full h-48 object-cover"
-        alt="Mountain Landscape"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Mountain Landscape</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain4.webp"
-        class="w-full h-48 object-cover"
-        alt="Major Mountain Range"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Major Mountain Range</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-        class="w-full h-48 object-cover"
-        alt="Waves at Sea"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Waves at Sea</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-        class="w-full h-48 object-cover"
-        alt="Yosemite National Park"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Yosemite National Park</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="w-full md:w-1/2 lg:w-1/3 p-2">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-        class="w-full h-48 object-cover"
-        alt="Yosemite National Park"
-      />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Yosemite National Park</div>
-      </div>
-    </div>
-  </div>
+  }
 </div>
 
 <div class="image-container">
-    <img src="src/assets/code.png" alt="Coding Image">
+  <img src="src/assets/code.png" alt="Coding Image" />
 </div>
