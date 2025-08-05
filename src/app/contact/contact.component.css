@@ -1,10 +1,18 @@
-.btn_cv{
+
+.btn_cv {
   @apply bg-transparent
-   hover:bg-white
-   text-xl
-  text-white
-  font-semibold
-  hover:text-black
-   py-3 px-16 border border-white hover:border-transparent rounded-md
-   w-full;
+    hover:bg-white
+    text-xl
+    text-white
+    font-semibold
+    hover:text-black
+    py-3 px-16
+    border border-white
+    hover:border-transparent
+    rounded-md
+    w-full;
+}
+
+.form-input {
+  @apply w-full bg-gray-100 text-gray-700 p-4 rounded-lg border-none placeholder-gray-400 focus:outline-none;
 }
